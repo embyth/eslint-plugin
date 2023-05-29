@@ -13,6 +13,7 @@ import { unicornConfig } from './configs/unicorn';
 import { commentsConfig } from './configs/comments';
 import { testingConfig } from './configs/testing';
 import { reactConfig } from './configs/react';
+import { nextConfig } from './configs/next';
 
 const plugin = definePlugin({
   rules: {},
@@ -31,6 +32,7 @@ const plugin = definePlugin({
     comments: commentsConfig,
     testing: testingConfig,
     react: reactConfig,
+    next: nextConfig,
   },
 });
 
