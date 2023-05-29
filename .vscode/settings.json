@@ -1,0 +1,40 @@
+{
+  "css.validate": false,
+  "scss.validate": false,
+  "npm.packageManager": "pnpm",
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "search.exclude": {
+    "pnpm-lock.yaml": true,
+    "**/node_modules": true
+  },
+  "files.exclude": {
+    "**/node_modules": false
+  },
+  "prettier.enable": false,
+  "eslint.format.enable": true,
+  "eslint.packageManager": "pnpm",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "json",
+    "jsonc",
+    "json5",
+    "yaml",
+    "yml",
+    "markdown"
+  ],
+  "[javascript][javascriptreact][typescript][typescriptreact][json][jsonc][yml][yaml]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+  }
+}
