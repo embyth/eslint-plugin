@@ -63,7 +63,7 @@
     "eslint-plugin-react-refresh": "0.3.4",
     "eslint-plugin-redos": "4.4.5",
     "eslint-plugin-testing-library": "5.11.0",
-    "eslint-plugin-unicorn": "46.0.0",
+    "eslint-plugin-unicorn": "46.0.1",
     "eslint-plugin-unused-imports": "2.0.0",
     "eslint-plugin-yml": "1.5.0",
     "jsonc-eslint-parser": "2.2.0",
