@@ -69,7 +69,7 @@
     "jsonc-eslint-parser": "2.2.0",
     "rimraf": "4.4.1",
     "typescript": "5.0.4",
-    "yaml-eslint-parser": "1.2.0"
+    "yaml-eslint-parser": "1.2.2"
   },
   "devDependencies": {
     "@commitlint/cli": "17.6.5",
