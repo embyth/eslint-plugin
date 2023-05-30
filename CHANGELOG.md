@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.5](https://github.com/embyth/eslint-plugin/compare/eslint-plugin-v0.1.4...eslint-plugin-v0.1.5) (2023-05-30)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-unicorn to v47 ([2671907](https://github.com/embyth/eslint-plugin/commit/2671907cb623d9e2113faef2222c962f177bfe95))
+
 ## [0.1.4](https://github.com/embyth/eslint-plugin/compare/eslint-plugin-v0.1.3...eslint-plugin-v0.1.4) (2023-05-30)
 
 
