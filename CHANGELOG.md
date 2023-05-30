@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.1.6](https://github.com/embyth/eslint-plugin/compare/eslint-plugin-v0.1.5...eslint-plugin-v0.1.6) (2023-05-30)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-n to v16 ([3e58126](https://github.com/embyth/eslint-plugin/commit/3e58126ea3fbea0434f4432c7f3c45c0a9130d56))
+* **deps:** update dependency jsonc-eslint-parser to v2.3.0 ([30bc3ba](https://github.com/embyth/eslint-plugin/commit/30bc3babf2b01d7d045a26b851c643e4d80f03a5))
+* **deps:** update dependency rimraf to v5 ([5e4438d](https://github.com/embyth/eslint-plugin/commit/5e4438d224dc5a8dc6451e264886e76944769cd8))
+
 ## [0.1.5](https://github.com/embyth/eslint-plugin/compare/eslint-plugin-v0.1.4...eslint-plugin-v0.1.5) (2023-05-30)
 
 
