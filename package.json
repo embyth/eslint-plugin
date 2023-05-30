@@ -65,7 +65,7 @@
     "eslint-plugin-testing-library": "5.11.0",
     "eslint-plugin-unicorn": "46.0.1",
     "eslint-plugin-unused-imports": "2.0.0",
-    "eslint-plugin-yml": "1.5.0",
+    "eslint-plugin-yml": "1.7.0",
     "jsonc-eslint-parser": "2.2.0",
     "rimraf": "4.4.1",
     "typescript": "5.0.4",
