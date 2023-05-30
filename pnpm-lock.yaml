@@ -1,4 +1,8 @@
-lockfileVersion: '6.0'
+lockfileVersion: '6.1'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
 
 dependencies:
   '@next/eslint-plugin-next':
@@ -68,8 +72,8 @@ dependencies:
     specifier: 5.11.0
     version: 5.11.0(eslint@8.39.0)(typescript@5.0.4)
   eslint-plugin-unicorn:
-    specifier: 46.0.0
-    version: 46.0.0(eslint@8.39.0)
+    specifier: 46.0.1
+    version: 46.0.1(eslint@8.39.0)
   eslint-plugin-unused-imports:
     specifier: 2.0.0
     version: 2.0.0(@typescript-eslint/eslint-plugin@5.59.1)(eslint@8.39.0)
@@ -2299,8 +2303,8 @@ packages:
       - typescript
     dev: false
 
-  /eslint-plugin-unicorn@46.0.0(eslint@8.39.0):
-    resolution: {integrity: sha512-j07WkC+PFZwk8J33LYp6JMoHa1lXc1u6R45pbSAipjpfpb7KIGr17VE2D685zCxR5VL4cjrl65kTJflziQWMDA==}
+  /eslint-plugin-unicorn@46.0.1(eslint@8.39.0):
+    resolution: {integrity: sha512-setGhMTiLAddg1asdwjZ3hekIN5zLznNa5zll7pBPwFOka6greCKDQydfqy4fqyUhndi74wpDzClSQMEcmOaew==}
     engines: {node: '>=14.18'}
     peerDependencies:
       eslint: '>=8.28.0'
