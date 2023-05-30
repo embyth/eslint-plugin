@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.4](https://github.com/embyth/eslint-plugin/compare/eslint-plugin-v0.1.3...eslint-plugin-v0.1.4) (2023-05-30)
+
+
+### Bug Fixes
+
+* **cd:** 🐛 npm auth token 3 ([5ce7d1b](https://github.com/embyth/eslint-plugin/commit/5ce7d1bd78e7fbb42f1ed52b72df6f72a7e4aece))
+
 ## [0.1.3](https://github.com/embyth/eslint-plugin/compare/eslint-plugin-v0.1.2...eslint-plugin-v0.1.3) (2023-05-30)
 
 
