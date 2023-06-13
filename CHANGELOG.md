@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.1.8](https://github.com/embyth/eslint-plugin/compare/eslint-plugin-v0.1.7...eslint-plugin-v0.1.8) (2023-06-13)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @next/eslint-plugin-next to v13.4.5 ([f4cf741](https://github.com/embyth/eslint-plugin/commit/f4cf741cc889ec09c4b39a5e8bc2670edf427d09))
+* **deps:** update dependency eslint-plugin-jsonc to v2.9.0 ([6f361ba](https://github.com/embyth/eslint-plugin/commit/6f361baa56dff76e4b368801b05e1b576ddcb106))
+* **deps:** update dependency eslint-plugin-yml to v1.8.0 ([3fe85db](https://github.com/embyth/eslint-plugin/commit/3fe85dbfca4cae4ae36164c86021302865e3ba40))
+* **deps:** update typescript-eslint monorepo to v5.59.11 ([c123c6c](https://github.com/embyth/eslint-plugin/commit/c123c6c4209bf0bdb4e51e945f54776717152c58))
+
 ## [0.1.7](https://github.com/embyth/eslint-plugin/compare/eslint-plugin-v0.1.6...eslint-plugin-v0.1.7) (2023-06-06)
 
 
