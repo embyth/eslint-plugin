@@ -62,7 +62,7 @@
     "eslint-plugin-react-hooks": "4.6.0",
     "eslint-plugin-react-refresh": "0.4.3",
     "eslint-plugin-redos": "4.4.5",
-    "eslint-plugin-testing-library": "5.11.0",
+    "eslint-plugin-testing-library": "5.11.1",
     "eslint-plugin-unicorn": "48.0.1",
     "eslint-plugin-unused-imports": "3.0.0",
     "eslint-plugin-yml": "1.8.0",
