@@ -123,7 +123,7 @@ export const importRules = defineRules({
 
   // Require a newline after the last import/require in a group
   // https://github.com/import-js/eslint-plugin-import/blob/master/docs/rules/newline-after-import.md
-  'import/newline-after-import': ['error', { count: 1, considerComments: true }],
+  'import/newline-after-import': ['error', { count: 1, considerComments: false }],
 
   // Require modules with a single export to use a default export
   // https://github.com/import-js/eslint-plugin-import/blob/master/docs/rules/prefer-default-export.md
@@ -270,17 +270,7 @@ export const importRules = defineRules({
   'import/order': [
     'error',
     {
-      groups: [
-        'builtin',
-        'external',
-        'internal',
-        [
-          'parent',
-          'sibling',
-          'index',
-        ],
-        'type',
-      ],
+      groups: ['builtin', 'external', 'internal', ['parent', 'sibling', 'index'], 'type'],
       pathGroups: [
         {
           pattern: '@/**',
@@ -317,12 +307,7 @@ export const importRules = defineRules({
       ignoreCase: false,
       ignoreDeclarationSort: true,
       ignoreMemberSort: false,
-      memberSyntaxSortOrder: [
-        'none',
-        'all',
-        'multiple',
-        'single',
-      ],
+      memberSyntaxSortOrder: ['none', 'all', 'multiple', 'single'],
       allowSeparatedGroups: false,
     },
   ],
