@@ -1,5 +1,48 @@
 # Changelog
 
+## [0.2.0](https://github.com/embyth/eslint-plugin/compare/eslint-plugin-v0.1.9...eslint-plugin-v0.2.0) (2023-09-07)
+
+
+### Features
+
+* **add:** ✨ ➕ nest config ([005452c](https://github.com/embyth/eslint-plugin/commit/005452cc4c4550903cd2cc019bc7f644202694d8))
+* **add:** ✨ ➕ prettier config ([94ac43a](https://github.com/embyth/eslint-plugin/commit/94ac43a47ccc8f5dc37e65628edc21c21e7f77a1))
+* **rules:** ✨ made newline after import rule ignore comments ([d4d8c3b](https://github.com/embyth/eslint-plugin/commit/d4d8c3b536bbf4ef2e011a77fdf2c6567124563b))
+
+
+### Bug Fixes
+
+* **config:** 🐛 ⚙️ tsconfig `moduleResolution` for `@typescript-eslint/*` upgrade ([319ce70](https://github.com/embyth/eslint-plugin/commit/319ce70f19a7cb685e65ff2e2b33bb39e3359cd0))
+* **deps:** update dependency @next/eslint-plugin-next to v13.4.10 ([27290ae](https://github.com/embyth/eslint-plugin/commit/27290aee02110609120806cb1822f85685371a33))
+* **deps:** update dependency @next/eslint-plugin-next to v13.4.11 ([9053e0d](https://github.com/embyth/eslint-plugin/commit/9053e0d1ac6e3eb072ed3021baafe298f8483473))
+* **deps:** update dependency @next/eslint-plugin-next to v13.4.12 ([a37fcf1](https://github.com/embyth/eslint-plugin/commit/a37fcf1ed78f178fd43be150bdfeea72af33b8c7))
+* **deps:** update dependency @next/eslint-plugin-next to v13.4.17 ([55d6c20](https://github.com/embyth/eslint-plugin/commit/55d6c20a2976b96710aacff33f75e82cd027ada2))
+* **deps:** update dependency @next/eslint-plugin-next to v13.4.18 ([365e21b](https://github.com/embyth/eslint-plugin/commit/365e21be3902cf90239729577a1e91860349c8f8))
+* **deps:** update dependency @next/eslint-plugin-next to v13.4.19 ([884cefb](https://github.com/embyth/eslint-plugin/commit/884cefbf2d53b46511656642fee15017838074e0))
+* **deps:** update dependency @next/eslint-plugin-next to v13.4.8 ([32b281e](https://github.com/embyth/eslint-plugin/commit/32b281e8023b2eb32b3ca8d47d7841425de47395))
+* **deps:** update dependency @next/eslint-plugin-next to v13.4.9 ([27ff382](https://github.com/embyth/eslint-plugin/commit/27ff38209fdb6980f7fd3ee8cfb96962600fb7a5))
+* **deps:** update dependency eslint-import-resolver-typescript to v3.6.0 ([1da621a](https://github.com/embyth/eslint-plugin/commit/1da621a7aa491a21a0ac1ad5ef38c204d8a172c1))
+* **deps:** update dependency eslint-plugin-import to v2.28.0 ([471e8c4](https://github.com/embyth/eslint-plugin/commit/471e8c4ca183809167cfa0ffc066e68fdde59c74))
+* **deps:** update dependency eslint-plugin-import to v2.28.1 ([a4f3f08](https://github.com/embyth/eslint-plugin/commit/a4f3f08ceee33ad27a5171941f9a9b43e7c1cfce))
+* **deps:** update dependency eslint-plugin-jest to v27.2.3 ([20ae414](https://github.com/embyth/eslint-plugin/commit/20ae4144d62a7193d6c8648da72d09a734636390))
+* **deps:** update dependency eslint-plugin-markdown to v3.0.1 ([d782226](https://github.com/embyth/eslint-plugin/commit/d782226e85cb220d92e3d2aa48ffe2f4fd0e5f58))
+* **deps:** update dependency eslint-plugin-n to v16.0.2 ([e6038d6](https://github.com/embyth/eslint-plugin/commit/e6038d6449c5672dd60b353b159f10e2a3f98e51))
+* **deps:** update dependency eslint-plugin-react to v7.33.0 ([a702acc](https://github.com/embyth/eslint-plugin/commit/a702acc1fcef77b37adc910d41cf656e4321d46d))
+* **deps:** update dependency eslint-plugin-react to v7.33.1 ([086f5b4](https://github.com/embyth/eslint-plugin/commit/086f5b45c1a20889c71823a7e5527eba63cc84b0))
+* **deps:** update dependency eslint-plugin-react to v7.33.2 ([e3708e8](https://github.com/embyth/eslint-plugin/commit/e3708e8f2aa86d54f6226f2d64fbddf1fb442ca4))
+* **deps:** update dependency eslint-plugin-react-refresh to v0.4.3 ([7ec6e72](https://github.com/embyth/eslint-plugin/commit/7ec6e7292482697d757a9750e6f4c073831a8ac1))
+* **deps:** update dependency eslint-plugin-testing-library to v5.11.1 ([1e19d87](https://github.com/embyth/eslint-plugin/commit/1e19d8737ca90b5ef0971bf6fe96ae7ec2cd63b0))
+* **deps:** update dependency eslint-plugin-testing-library to v6 ([d5f955b](https://github.com/embyth/eslint-plugin/commit/d5f955b2b671178005782c857294eee5c73f053a))
+* **deps:** update dependency eslint-plugin-testing-library to v6.0.1 ([dbfe933](https://github.com/embyth/eslint-plugin/commit/dbfe933478456932ea32c3c844420e97c69157ae))
+* **deps:** update dependency eslint-plugin-unicorn to v48 ([2cdf7be](https://github.com/embyth/eslint-plugin/commit/2cdf7befb98bd90a6ae2bab72a17fa05045f5924))
+* **deps:** update dependency eslint-plugin-unicorn to v48.0.1 ([b9804b0](https://github.com/embyth/eslint-plugin/commit/b9804b0e62388fd2a9a1c7a06c44eefa55284ae3))
+* **deps:** update dependency eslint-plugin-unused-imports to v3 ([54eb1ea](https://github.com/embyth/eslint-plugin/commit/54eb1eaf17dd143e8256fc5ca0b5a1a0ff57fc8c))
+* **deps:** update typescript-eslint monorepo to v5.61.0 ([de9fdc2](https://github.com/embyth/eslint-plugin/commit/de9fdc2aaab4eb8aae00e7adacd7bf7053e5187b))
+* **deps:** update typescript-eslint monorepo to v5.62.0 ([1abb914](https://github.com/embyth/eslint-plugin/commit/1abb9142f8b72765bba2284a8a6fb6f455ffae1d))
+* **deps:** update typescript-eslint monorepo to v6 ([732f5e6](https://github.com/embyth/eslint-plugin/commit/732f5e622efc3193ca8f75fedce9c0a117425fd2))
+* **rules:** 🐛 `unicorn/filename-case` preferences ([f21a66d](https://github.com/embyth/eslint-plugin/commit/f21a66d213d44f2f76d84a7b9841c5eeab05ae81))
+* **rules:** 🐛 yml curly spacing rule to match prettier config ([3c63dd2](https://github.com/embyth/eslint-plugin/commit/3c63dd2a0b4c2c0fa3ea1a09daa3e16257241280))
+
 ## [0.1.9](https://github.com/embyth/eslint-plugin/compare/eslint-plugin-v0.1.8...eslint-plugin-v0.1.9) (2023-06-29)
 
 
