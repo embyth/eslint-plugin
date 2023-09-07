@@ -14,6 +14,7 @@ import { commentsConfig } from './configs/comments';
 import { testingConfig } from './configs/testing';
 import { reactConfig } from './configs/react';
 import { nextConfig } from './configs/next';
+import { prettierConfig } from './configs/prettier';
 
 const plugin = definePlugin({
   rules: {},
@@ -33,6 +34,7 @@ const plugin = definePlugin({
     testing: testingConfig,
     react: reactConfig,
     next: nextConfig,
+    prettier: prettierConfig,
   },
 });
 

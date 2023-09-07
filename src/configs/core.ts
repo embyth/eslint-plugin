@@ -24,6 +24,7 @@ export const coreConfig = defineConfig({
     'plugin:@embyth/unicorn',
     'plugin:@embyth/comments',
     'plugin:@embyth/testing',
+    'plugin:@embyth/prettier',
   ],
   reportUnusedDisableDirectives: true,
   ignorePatterns,
