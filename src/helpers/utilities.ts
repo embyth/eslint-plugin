@@ -1,31 +1,26 @@
 import standardConfig from 'eslint-config-standard/.eslintrc.json';
 import type { TSESLint } from '@typescript-eslint/utils';
 
-export function defineConfig(
-  config: TSESLint.Linter.Config,
-): TSESLint.Linter.Config {
+export function defineConfig(config: TSESLint.Linter.Config): TSESLint.Linter.Config {
   return config;
 }
 
-export function defineRules(
-  rules: TSESLint.Linter.Config['rules'],
-): TSESLint.Linter.Config['rules'] {
+export function defineRules(rules: TSESLint.Linter.Config['rules']): TSESLint.Linter.Config['rules'] {
   return rules;
 }
 
-export function definePlugin(
-  plugin: TSESLint.Linter.Plugin,
-): TSESLint.Linter.Plugin {
+export function definePlugin(plugin: TSESLint.Linter.Plugin): TSESLint.Linter.Plugin {
   return plugin;
 }
 
-export function fromEntries<T>(
-  iterable: Array<[string, T]>,
-): Record<string, T> {
-  return [...iterable].reduce<Record<string, T>>((object, [key, value]) => ({
-    ...object,
-    [key]: value,
-  }), {});
+export function fromEntries<T>(iterable: Array<[string, T]>): Record<string, T> {
+  return [...iterable].reduce<Record<string, T>>(
+    (object, [key, value]) => ({
+      ...object,
+      [key]: value,
+    }),
+    {},
+  );
 }
 
 export const ruleFromStandard = (name: string): TSESLint.Linter.RuleEntry => {

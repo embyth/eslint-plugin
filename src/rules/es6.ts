@@ -62,7 +62,8 @@ export const es6Rules = defineRules({
     {
       restrictedNamedExports: [
         // use `export default` to provide a default export
-        'default', 'then',
+        'default',
+        'then',
       ],
     },
   ],
@@ -187,12 +188,7 @@ export const es6Rules = defineRules({
       ignoreCase: false,
       ignoreDeclarationSort: false,
       ignoreMemberSort: false,
-      memberSyntaxSortOrder: [
-        'none',
-        'all',
-        'multiple',
-        'single',
-      ],
+      memberSyntaxSortOrder: ['none', 'all', 'multiple', 'single'],
     },
   ],
 

@@ -21,13 +21,11 @@ export const variablesRules = defineRules({
     'error',
     {
       name: 'isFinite',
-      message:
-          'Use Number.isFinite instead https://github.com/airbnb/javascript#standard-library--isfinite',
+      message: 'Use Number.isFinite instead https://github.com/airbnb/javascript#standard-library--isfinite',
     },
     {
       name: 'isNaN',
-      message:
-          'Use Number.isNaN instead https://github.com/airbnb/javascript#standard-library--isnan',
+      message: 'Use Number.isNaN instead https://github.com/airbnb/javascript#standard-library--isnan',
     },
     ...confusingBrowserGlobals,
   ],

@@ -57,11 +57,7 @@ export const packageJsonRules = defineRules({
     },
     {
       pathPattern: '^exports.*$',
-      order: [
-        'types',
-        'require',
-        'import',
-      ],
+      order: ['types', 'require', 'import'],
     },
   ],
 });

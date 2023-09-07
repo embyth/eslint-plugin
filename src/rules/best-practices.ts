@@ -55,11 +55,7 @@ export const bestPracticeRules = defineRules({
 
   // require the use of === and !==
   // https://eslint.org/docs/rules/eqeqeq
-  eqeqeq: [
-    'error',
-    'always',
-    { null: 'ignore' },
-  ],
+  eqeqeq: ['error', 'always', { null: 'ignore' }],
 
   // Require grouped accessor pairs in object literals and classes
   // https://eslint.org/docs/rules/grouped-accessor-pairs
@@ -102,11 +98,7 @@ export const bestPracticeRules = defineRules({
   'no-empty-function': [
     'error',
     {
-      allow: [
-        'arrowFunctions',
-        'functions',
-        'methods',
-      ],
+      allow: ['arrowFunctions', 'functions', 'methods'],
     },
   ],
 
@@ -421,11 +413,7 @@ export const bestPracticeRules = defineRules({
   'no-warning-comments': [
     'off',
     {
-      terms: [
-        'todo',
-        'fixme',
-        'xxx',
-      ],
+      terms: ['todo', 'fixme', 'xxx'],
       location: 'start',
     },
   ],
@@ -473,11 +461,7 @@ export const bestPracticeRules = defineRules({
 
   // require immediate function invocation to be wrapped in parentheses
   // https://eslint.org/docs/rules/wrap-iife.html
-  'wrap-iife': [
-    'error',
-    'outside',
-    { functionPrototypeMethods: false },
-  ],
+  'wrap-iife': ['error', 'outside', { functionPrototypeMethods: false }],
 
   // require or disallow Yoda conditions
   // https://eslint.org/docs/rules/yoda

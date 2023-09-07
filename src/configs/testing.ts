@@ -4,12 +4,7 @@ import { testingRules } from '../rules/testing';
 export const testingConfig = defineConfig({
   overrides: [
     {
-      files: [
-        '*.test.ts',
-        '*.test.js',
-        '*.spec.ts',
-        '*.spec.js',
-      ],
+      files: ['*.test.ts', '*.test.js', '*.spec.ts', '*.spec.js'],
       rules: testingRules,
     },
     {

@@ -3,9 +3,7 @@ import { defineRules, fromEntries, ruleFromStandard } from '../helpers/utilities
 
 export const typescriptRules = defineRules({
   ...fromEntries(TSEquivalents.map((name) => [name, 'off'])),
-  ...fromEntries(
-    TSEquivalents.map((name) => [`@typescript-eslint/${name}`, ruleFromStandard(name)]),
-  ),
+  ...fromEntries(TSEquivalents.map((name) => [`@typescript-eslint/${name}`, ruleFromStandard(name)])),
   '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
   '@typescript-eslint/no-use-before-define': [
     'error',

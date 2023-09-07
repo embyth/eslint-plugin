@@ -51,15 +51,5 @@ export const ignorePatterns: string[] = [
   '.vitepress/cache',
 ];
 
-export const resolverExtensions = [
-  '.js',
-  '.jsx',
-  '.mjs',
-  '.cjs',
-  '.json',
-];
-export const resolverExtensionsWithTS = [
-  '.ts',
-  '.tsx',
-  ...resolverExtensions,
-];
+export const resolverExtensions = ['.js', '.jsx', '.mjs', '.cjs', '.json'];
+export const resolverExtensionsWithTS = ['.ts', '.tsx', ...resolverExtensions];

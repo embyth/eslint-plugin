@@ -6,11 +6,7 @@ export const jsonConfig = defineConfig({
   extends: ['plugin:jsonc/recommended-with-jsonc'],
   overrides: [
     {
-      files: [
-        '*.json',
-        '*.json5',
-        '*.jsonc',
-      ],
+      files: ['*.json', '*.json5', '*.jsonc'],
       parser: 'jsonc-eslint-parser',
       rules: jsonRules,
     },

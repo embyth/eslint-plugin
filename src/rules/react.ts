@@ -35,11 +35,7 @@ export const reactRules = defineRules({
   'react/jsx-closing-bracket-location': ['error', { location: 'tag-aligned' }],
   'react/jsx-closing-tag-location': 'error',
   'react/jsx-curly-brace-presence': ['error', { propElementValues: 'always' }],
-  'react/jsx-curly-spacing': [
-    'error',
-    'never',
-    { allowMultiline: true },
-  ],
+  'react/jsx-curly-spacing': ['error', 'never', { allowMultiline: true }],
   'react/jsx-equals-spacing': ['error', 'never'],
   'react/jsx-filename-extension': ['error', { extensions: ['.jsx', '.tsx'] }],
   'react/jsx-indent-props': ['error', 2],

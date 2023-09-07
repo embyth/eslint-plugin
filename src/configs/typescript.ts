@@ -16,11 +16,7 @@ export const typescriptConfig = defineConfig({
     },
     /** Configure node plugin to include TS files */
     node: {
-      tryExtensions: [
-        '.js',
-        '.ts',
-        '.tsx',
-      ],
+      tryExtensions: ['.js', '.ts', '.tsx'],
     },
     /**
      * Fixes the import plugin not handling packages with types packages installed correctly
@@ -43,18 +39,14 @@ export const typescriptConfig = defineConfig({
       },
     },
     {
-      files: [
-        '*.ts',
-        '*.tsx',
-        '*.mts',
-        '*.cts',
-      ],
+      files: ['*.ts', '*.tsx', '*.mts', '*.cts'],
       extends: [
         /**
          * Adds typescript rules, typescript parser
          * https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin
          */
-        'plugin:@typescript-eslint/recommended', 'plugin:@typescript-eslint/recommended-requiring-type-checking',
+        'plugin:@typescript-eslint/recommended',
+        'plugin:@typescript-eslint/recommended-requiring-type-checking',
       ],
       parser: '@typescript-eslint/parser',
       parserOptions: {

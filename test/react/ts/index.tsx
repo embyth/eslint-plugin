@@ -5,11 +5,11 @@ type ReactPortalProperties = {
   /**
    * The children to render into the `container`.
    */
-  children: React.ReactNode
+  children: React.ReactNode;
   /**
    * Property, which is the ID attribute of a DOM element and acts as the container for the portal.
    */
-  wrapperId: string
+  wrapperId: string;
 };
 
 /**
@@ -37,9 +37,5 @@ export const ReactPortal: React.FC<ReactPortalProperties> = (properties) => {
     }
   }, [wrapperId]);
 
-  return (
-    <>
-      {mountNode && createPortal(children, mountNode)}
-    </>
-  );
+  return <>{mountNode && createPortal(children, mountNode)}</>;
 };

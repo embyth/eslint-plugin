@@ -16,9 +16,8 @@
   "files.exclude": {
     "**/node_modules": false
   },
-  "prettier.enable": false,
+  "prettier.enable": true,
   "eslint.format.enable": true,
-  "eslint.packageManager": "pnpm",
   "eslint.validate": [
     "javascript",
     "javascriptreact",
