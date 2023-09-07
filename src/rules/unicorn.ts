@@ -33,4 +33,17 @@ export const unicornRules = defineRules({
   'unicorn/prefer-object-from-entries': 'off',
   // Disallow the use of the null literal
   'unicorn/no-null': 'off',
+  // Enforces all linted files to have their names in a certain case style and lowercase file extension
+  'unicorn/filename-case': [
+    'error',
+    {
+      cases: {
+        camelCase: true,
+        pascalCase: true,
+        kebabCase: true,
+      },
+      // ignore markdown files
+      ignore: [/^[\w-]+\.md$/i],
+    },
+  ],
 });
