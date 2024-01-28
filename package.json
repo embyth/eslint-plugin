@@ -80,7 +80,7 @@
     "@commitlint/cli": "17.7.1",
     "@commitlint/config-conventional": "17.7.0",
     "@embyth/eslint-plugin": "link:",
-    "@embyth/prettier-config": "1.0.0",
+    "@embyth/prettier-config": "1.0.1",
     "@types/node": "20.11.9",
     "@types/react": "18.2.22",
     "@types/react-dom": "18.2.7",
