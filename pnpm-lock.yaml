@@ -116,8 +116,8 @@ devDependencies:
     specifier: 'link:'
     version: 'link:'
   '@embyth/prettier-config':
-    specifier: 1.0.0
-    version: 1.0.0(prettier@3.0.3)
+    specifier: 1.0.1
+    version: 1.0.1(prettier@3.0.3)
   '@types/node':
     specifier: 20.11.9
     version: 20.11.9
@@ -551,11 +551,11 @@ packages:
       '@jridgewell/trace-mapping': 0.3.9
     dev: true
 
-  /@embyth/prettier-config@1.0.0(prettier@3.0.3):
-    resolution: {integrity: sha512-RGj2NYkHNfjbM0eOh6piVn0TKaBIXUqErQiUHkp3sZ6h64SYch9lsVW/L9lEc6PPicfomgOhNYQJ/VgppN0V7w==}
+  /@embyth/prettier-config@1.0.1(prettier@3.0.3):
+    resolution: {integrity: sha512-Dn2QCvO4b5zwqIXiTjhjj2CXho3oH8fp2/GUZrIRUFxjlL5U+45F80EH75yqP3Tn7Bp6HRIn7q8mlu1ULyhrCg==}
     engines: {node: '>=18.15.0', pnpm: '>=8.1.0'}
     peerDependencies:
-      prettier: 3.0.3
+      prettier: 3.2.4
     dependencies:
       prettier: 3.0.3
     dev: true
