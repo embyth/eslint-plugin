@@ -72,8 +72,8 @@ dependencies:
     specifier: 4.6.0
     version: 4.6.0(eslint@8.56.0)
   eslint-plugin-react-refresh:
-    specifier: 0.4.3
-    version: 0.4.3(eslint@8.56.0)
+    specifier: 0.4.5
+    version: 0.4.5(eslint@8.56.0)
   eslint-plugin-redos:
     specifier: 4.4.5
     version: 4.4.5(eslint@8.56.0)
@@ -2615,8 +2615,8 @@ packages:
       eslint: 8.56.0
     dev: false
 
-  /eslint-plugin-react-refresh@0.4.3(eslint@8.56.0):
-    resolution: {integrity: sha512-Hh0wv8bUNY877+sI0BlCUlsS0TYYQqvzEwJsJJPM2WF4RnTStSnSR3zdJYa2nPOJgg3UghXi54lVyMSmpCalzA==}
+  /eslint-plugin-react-refresh@0.4.5(eslint@8.56.0):
+    resolution: {integrity: sha512-D53FYKJa+fDmZMtriODxvhwrO+IOqrxoEo21gMA0sjHdU6dPVH4OhyFip9ypl8HOF5RV5KdTo+rBQLvnY2cO8w==}
     peerDependencies:
       eslint: '>=7'
     dependencies:
