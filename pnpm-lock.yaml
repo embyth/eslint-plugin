@@ -78,8 +78,8 @@ dependencies:
     specifier: 4.4.5
     version: 4.4.5(eslint@8.56.0)
   eslint-plugin-testing-library:
-    specifier: 6.0.1
-    version: 6.0.1(eslint@8.56.0)(typescript@5.2.2)
+    specifier: 6.2.0
+    version: 6.2.0(eslint@8.56.0)(typescript@5.2.2)
   eslint-plugin-unicorn:
     specifier: 48.0.1
     version: 48.0.1(eslint@8.56.0)
@@ -2660,8 +2660,8 @@ packages:
       recheck: 4.4.5
     dev: false
 
-  /eslint-plugin-testing-library@6.0.1(eslint@8.56.0)(typescript@5.2.2):
-    resolution: {integrity: sha512-CEYtjpcF3hAaQtYsTZqciR7s5z+T0LCMTwJeW+pz6kBnGtc866wAKmhaiK2Gsjc2jWNP7Gt6zhNr2DE1ZW4e+g==}
+  /eslint-plugin-testing-library@6.2.0(eslint@8.56.0)(typescript@5.2.2):
+    resolution: {integrity: sha512-+LCYJU81WF2yQ+Xu4A135CgK8IszcFcyMF4sWkbiu6Oj+Nel0TrkZq/HvDw0/1WuO3dhDQsZA/OpEMGd0NfcUw==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0, npm: '>=6'}
     peerDependencies:
       eslint: ^7.5.0 || ^8.0.0
