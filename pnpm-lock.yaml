@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@next/eslint-plugin-next':
-    specifier: 13.5.2
-    version: 13.5.2
+    specifier: 13.5.6
+    version: 13.5.6
   '@typescript-eslint/eslint-plugin':
     specifier: 6.7.2
     version: 6.7.2(@typescript-eslint/parser@6.7.2)(eslint@8.56.0)(typescript@5.2.2)
@@ -1066,8 +1066,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
-  /@next/eslint-plugin-next@13.5.2:
-    resolution: {integrity: sha512-Ew8DOUerJYGRo8pI84SVwn9wxxx8sH92AanCXSkkLJM2W0RJEWy+BqWSCfrlA/3ZIczEl4l4o4lOeTGBPYfBJg==}
+  /@next/eslint-plugin-next@13.5.6:
+    resolution: {integrity: sha512-ng7pU/DDsxPgT6ZPvuprxrkeew3XaRf4LAT4FabaEO/hAbvVx4P7wqnqdbTdDn1kgTvsI4tpIgT4Awn/m0bGbg==}
     dependencies:
       glob: 7.1.7
     dev: false
