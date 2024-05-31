@@ -46,4 +46,21 @@ export const unicornRules = defineRules({
       ignore: [/^[\w-]+\.md$/i],
     },
   ],
+  // Using complete words results in more readable code. Not everyone knows all your abbreviations. Code is written only once, but read many times.
+  'unicorn/prevent-abbreviations': [
+    'error',
+    {
+      allowList: {
+        getInitialProps: true,
+        props: true,
+      },
+    },
+  ],
+  // A function definition should be placed as close to the top-level scope as possible without breaking its captured values. This improves readability, directly improves performance and allows JavaScript engines to better optimize performance.
+  'unicorn/consistent-function-scoping': [
+    'error',
+    {
+      checkArrowFunctions: false,
+    },
+  ],
 });
