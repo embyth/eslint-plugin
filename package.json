@@ -77,8 +77,8 @@
     "yaml-eslint-parser": "1.2.3"
   },
   "devDependencies": {
-    "@commitlint/cli": "18.6.1",
-    "@commitlint/config-conventional": "18.6.3",
+    "@commitlint/cli": "19.3.0",
+    "@commitlint/config-conventional": "19.2.2",
     "@embyth/eslint-plugin": "link:",
     "@embyth/prettier-config": "1.1.0",
     "@types/node": "20.12.13",
