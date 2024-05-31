@@ -21,7 +21,7 @@ export const typescriptRules = defineRules({
   '@typescript-eslint/member-delimiter-style': [
     'error',
     {
-      multiline: { delimiter: 'none' },
+      multiline: { delimiter: 'semi' },
       singleline: { delimiter: 'semi', requireLast: false },
     },
   ],
