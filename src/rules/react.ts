@@ -3,6 +3,7 @@ import { defineRules } from '../helpers/utilities';
 export const reactRules = defineRules({
   // Reset rules
   'no-undef': 'off',
+  'consistent-return': 'off',
   // React rules
   'react/button-has-type': 'off',
   'react/display-name': ['error', { ignoreTranspilerName: false }],
