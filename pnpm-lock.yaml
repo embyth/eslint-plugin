@@ -118,8 +118,8 @@ importers:
         specifier: 'link:'
         version: 'link:'
       '@embyth/prettier-config':
-        specifier: 1.0.1
-        version: 1.0.1(prettier@3.2.5)
+        specifier: 1.1.0
+        version: 1.1.0(prettier@3.2.5)
       '@types/node':
         specifier: 20.12.13
         version: 20.12.13
@@ -323,11 +323,11 @@ packages:
     resolution: {integrity: sha512-gwRLBLra/Dozj2OywopeuHj2ac26gjGkz2cZ+86cTJOdtWfiRRr4+e77ZDAGc6MDWxaWheI+mAV5TLWWRwqrFg==}
     engines: {node: '>=v18'}
 
-  '@embyth/prettier-config@1.0.1':
-    resolution: {integrity: sha512-Dn2QCvO4b5zwqIXiTjhjj2CXho3oH8fp2/GUZrIRUFxjlL5U+45F80EH75yqP3Tn7Bp6HRIn7q8mlu1ULyhrCg==}
+  '@embyth/prettier-config@1.1.0':
+    resolution: {integrity: sha512-kytRzxqxBJNyDfs7SuunJfHsIvj7sYBBWzNxvxbBMjsaOiMcJzweapOsFIqu50ccLT/srHYIY0rRZMY5UMiQqQ==}
     engines: {node: '>=18.15.0', pnpm: '>=8.1.0'}
     peerDependencies:
-      prettier: 3.2.4
+      prettier: 3.2.5
 
   '@esbuild/android-arm64@0.18.20':
     resolution: {integrity: sha512-Nz4rJcchGDtENV0eMKUNa6L12zz2zBDXuhj/Vjh18zGqB44Bi7MBMSXjgunJgjRhCmKOjnPuZp4Mb6OKqtMHLQ==}
@@ -3322,7 +3322,7 @@ snapshots:
     dependencies:
       chalk: 4.1.2
 
-  '@embyth/prettier-config@1.0.1(prettier@3.2.5)':
+  '@embyth/prettier-config@1.1.0(prettier@3.2.5)':
     dependencies:
       prettier: 3.2.5
 
