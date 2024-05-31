@@ -25,12 +25,10 @@ export function fromEntries<T>(iterable: Array<[string, T]>): Record<string, T> 
 
 export const ruleFromStandard = (name: string): TSESLint.Linter.RuleEntry => {
   const configStandard = standardConfig as unknown as TSESLint.Linter.Config;
-  // eslint-disable-next-line no-undefined
   if (configStandard.rules === undefined) {
     throw new Error('rules can not be undefined');
   }
   const rule: TSESLint.Linter.RuleEntry | undefined = configStandard.rules[name];
-  // eslint-disable-next-line no-undefined
   if (rule === undefined) {
     throw new Error('rule can not be undefined');
   }

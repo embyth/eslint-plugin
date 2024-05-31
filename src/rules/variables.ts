@@ -44,7 +44,7 @@ export const variablesRules = defineRules({
 
   // disallow use of undefined variable
   // https://eslint.org/docs/rules/no-undefined
-  'no-undefined': 'error',
+  'no-undefined': 'off',
 
   // disallow declaration of variables that are not used in the code
   'no-unused-vars': ['error', { vars: 'all', args: 'after-used', ignoreRestSiblings: true }],
