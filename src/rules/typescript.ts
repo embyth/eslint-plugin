@@ -30,6 +30,14 @@ export const typescriptRules = defineRules({
   '@typescript-eslint/consistent-indexed-object-style': ['error', 'record'],
   '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
   '@typescript-eslint/prefer-ts-expect-error': 'error',
+  '@typescript-eslint/no-misused-promises': [
+    2,
+    {
+      checksVoidReturn: {
+        attributes: false,
+      },
+    },
+  ],
   '@typescript-eslint/naming-convention': 'off',
   '@typescript-eslint/explicit-function-return-type': 'off',
   '@typescript-eslint/explicit-member-accessibility': 'off',
@@ -43,4 +51,5 @@ export const typescriptRules = defineRules({
   '@typescript-eslint/ban-types': 'off',
   '@typescript-eslint/no-var-requires': 'off',
   '@typescript-eslint/no-namespace': 'off',
+  '@typescript-eslint/indent': 'off',
 });
