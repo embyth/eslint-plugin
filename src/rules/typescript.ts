@@ -16,7 +16,7 @@ export const typescriptRules = defineRules({
     },
   ],
   '@typescript-eslint/comma-dangle': ['error', 'always-multiline'],
-  '@typescript-eslint/space-before-function-paren': ['error', 'never'],
+  '@typescript-eslint/space-before-function-paren': 'off',
   '@typescript-eslint/ban-ts-comment': ['error', { 'ts-ignore': 'allow-with-description' }],
   '@typescript-eslint/member-delimiter-style': [
     'error',
