@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.0](https://github.com/embyth/eslint-plugin/compare/eslint-plugin-v0.3.0...eslint-plugin-v0.4.0) (2024-05-31)
+
+
+### Features
+
+* **docs:** ✨ 📚️ added shuffleArray jsdoc ([7b623b6](https://github.com/embyth/eslint-plugin/commit/7b623b6106166330ce786c22aeaaadfbffdf83aa))
+
 ## [0.3.0](https://github.com/embyth/eslint-plugin/compare/eslint-plugin-v0.2.0...eslint-plugin-v0.3.0) (2024-05-31)
 
 
