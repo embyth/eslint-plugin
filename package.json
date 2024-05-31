@@ -69,7 +69,7 @@
     "eslint-plugin-testing-library": "6.2.2",
     "eslint-plugin-unicorn": "50.0.1",
     "eslint-plugin-unused-imports": "4.0.0",
-    "eslint-plugin-yml": "1.12.2",
+    "eslint-plugin-yml": "1.14.0",
     "jsonc-eslint-parser": "2.4.0",
     "prettier": "3.2.5",
     "rimraf": "5.0.7",
