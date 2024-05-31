@@ -60,11 +60,8 @@ export const es6Rules = defineRules({
   'no-restricted-exports': [
     'error',
     {
-      restrictedNamedExports: [
-        // use `export default` to provide a default export
-        'default',
-        'then',
-      ],
+      restrictedNamedExports: ['then'],
+      restrictDefaultExports: { namedFrom: false },
     },
   ],
 
