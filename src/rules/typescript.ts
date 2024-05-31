@@ -22,7 +22,7 @@ export const typescriptRules = defineRules({
     'error',
     {
       multiline: { delimiter: 'none' },
-      singleline: { delimiter: 'comma', requireLast: false },
+      singleline: { delimiter: 'semi', requireLast: false },
     },
   ],
   '@typescript-eslint/type-annotation-spacing': 'error',
