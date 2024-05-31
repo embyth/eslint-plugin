@@ -37,5 +37,5 @@ export const ruleFromStandard = (name: string): TSESLint.Linter.RuleEntry => {
   if (typeof rule !== 'object') {
     return rule;
   }
-  return JSON.parse(JSON.stringify(rule)) as TSESLint.Linter.RuleEntry;
+  return structuredClone(rule) as TSESLint.Linter.RuleEntry;
 };

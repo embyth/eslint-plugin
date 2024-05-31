@@ -19,7 +19,7 @@ export const importConfig = defineConfig({
       },
     },
     'import/extensions': resolverExtensions,
-    'import/ignore': ['node_modules', '\\.(coffee|scss|css|less|hbs|svg|json)$'],
+    'import/ignore': ['node_modules', String.raw`\.(coffee|scss|css|less|hbs|svg|json)$`],
   },
   rules: importRules,
 });
